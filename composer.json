@@ -1,0 +1,13 @@
+{
+  "name": "nico/monExtension",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "classmap": ["src/monExtensionRubedo"]
+  },
+  "config": {
+    "process-timeout": 600
+  }
+}
