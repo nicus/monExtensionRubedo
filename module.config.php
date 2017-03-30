@@ -17,12 +17,12 @@ return array(
             'new' => array(
                 'label' => 'New',
                 'noBoostrap'=> true,
-                'basePath' => realpath(__DIR__ . '/../themes/yeti'),
+                'basePath' => realpath(__DIR__ . '/../themes/readable'),
                 'css' => array(
                     '/css/bootstrap.min.css',
                 ),
                 'js' => array(
-                    '/js/blockConfig.js',
+                    '/js/bootstrap.min.js',
                 ),
             ),
         ),
