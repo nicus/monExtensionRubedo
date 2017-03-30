@@ -16,9 +16,10 @@ return array(
         'themes' => array(
             'new' => array(
                 'label' => 'New',
-                'basePath' => realpath(__DIR__ . '/../theme/new'),
+                'noBoostrap'=> true,
+                'basePath' => realpath(__DIR__ . '/../themes/yeti'),
                 'css' => array(
-                    '/css/new.css',
+                    '/css/bootstrap.min.css',
                 ),
                 'js' => array(
                     '/js/blockConfig.js',
